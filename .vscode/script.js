@@ -9,11 +9,12 @@ function toggleMode() {
     if (html.classList.contains("light")) {
 
         // se tiver light mode, manter a imagem light
-        img.setAttribute("src", "./assets/avatar-light.png")   
+        img.setAttribute("src", "./assets/avatar-light.png")
+        img.setAttribute("alt", "Rayane Prado sorrindo com blazer azul.");
+
     } else {
-        // set tiver sem light mode, manter a imagem normal
-        img.setAttribute("src", "./assets/Avatar.png")
+        // se tiver sem light mode, manter a imagem normal
+        img.setAttribute("src", "./assets/avatar.png")
+        img.setAttribute("alt", "Rayane Prado sorrindo com regata bege com fundo verde.");
     }
-
-
 }
